@@ -53,14 +53,10 @@
 
                 Console.WriteLine("-----------------------------------------");
                 Console.Write("Digite o primeiro numero: ");
-                string strprimeiroNumero = Console.ReadLine();
-
-                decimal primeiroNumero = Convert.ToDecimal(strprimeiroNumero);
+                decimal primeiroNumero = Convert.ToDecimal(Console.ReadLine());
 
                 Console.Write("Digite o segundo numero: ");
-                string strsegundoNumero = Console.ReadLine();
-
-                decimal segundoNumero = Convert.ToDecimal(strsegundoNumero);
+                decimal segundoNumero = Convert.ToDecimal(Console.ReadLine());
 
                 decimal resultado = 0;
                 // estrutura de decisão "Se"
