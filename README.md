@@ -8,13 +8,12 @@ Este é um projeto de uma calculadora simples em C# que permite realizar operaçõe
 - **Subtração**: Realiza a subtração de dois números.
 - **Multiplicação**: Realiza a multiplicação de dois números.
 - **Divisão**: Realiza a divisão de dois números, com verificação para impedir divisão por zero.
-- **Tabuada**: Exibe a tabuada de um número de 1 a 10.
+- **Tabuada**: A calculadora é capaz de gerar a tabuada de um número informado.
 - **Histórico de Operações**: Mantém um histórico das últimas operações realizadas.
 
 ## Tecnologias Utilizadas
 
 - **C#**
-- **.NET Core (Console Application)**
 
 ## Como Rodar o Projeto
 
