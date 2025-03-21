@@ -22,6 +22,7 @@
                 Console.WriteLine("3 - Mutiplicação");
                 Console.WriteLine("4 - Divisão");
                 Console.WriteLine("5 - Tabuada");
+                Console.WriteLine("6 - Histórico de Operações");
                 Console.WriteLine("S - Sair");
                 Console.WriteLine("-----------------------------------------");
 
@@ -51,7 +52,22 @@
                     continue;
                 }
 
-                Console.WriteLine("-----------------------------------------");
+                else if (opcao == "6")
+                { 
+                    Console.WriteLine("-----------------------------------------");
+                    Console.WriteLine("Histórico de Operações");
+                    Console.WriteLine("-----------------------------------------");
+
+                    for (int contador = 0; contador < contadorHistorico; contador++)
+                    {
+                        Console.WriteLine(historicoOperacoes[contador]);
+                    }
+
+                    Console.ReadLine();
+                    continue;
+                }
+
+                    Console.WriteLine("-----------------------------------------");
                 Console.Write("Digite o primeiro numero: ");
                 decimal primeiroNumero = Convert.ToDecimal(Console.ReadLine());
 
