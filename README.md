@@ -1,5 +1,7 @@
 # Calculadora - Tabajara 2025
 
+![](https://imgur.com/MmDP4BB.gif)
+
 Este é um projeto de uma calculadora simples em C# que permite realizar operações matemáticas básicas, como soma, subtração, multiplicação, divisão e até mesmo gerar a tabuada de um número. A aplicação roda no console e mantém um histórico das operações realizadas.
 
 ## Funcionalidades
@@ -13,7 +15,7 @@ Este é um projeto de uma calculadora simples em C# que permite realizar operaçõe
 
 ## Tecnologias Utilizadas
 
-- **C#**
+[![My Skills](https://skillicons.dev/icons?i=git,github,cs,dotnet,visualstudio)](https://skillicons.dev)
 
 ## Como Rodar o Projeto
 
